@@ -1,0 +1,61 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;;
+    }
+
+    
+    .botao-assistir {
+        font-size: 11px;
+    
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+
+    .botao-maisinfo {
+        font-size: 11px;
+    
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    header .container{
+        display: flex;
+        flex-direction: column;;
+    }
+
+    
+    .botao-assistir {
+        font-size: 10px;
+    
+        padding: 5px 6px;
+        border-radius: 8px;
+    }
+
+    .botao-assistir i{
+        margin-right: 1px;
+    }
+
+    .botao-maisinfo {
+        font-size: 9px;
+    
+        padding: 8px 6px;
+        border-radius: 8px;
+    }
+
+    .botao-maisinfor i{
+        margin-right: 1px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+
+    .titulo-principal{
+        width: 50%;
+    }
+}

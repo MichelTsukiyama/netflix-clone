@@ -1,0 +1,141 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+/* resetar o estilo da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos base */
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #AAA;
+}
+
+/* Filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)100%), url('/img/capa1.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex flex-start;
+}
+
+.titulo-principal{
+    margin-bottom: 1%;
+    max-width: 100%;    
+}
+
+.filme-principal .container{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 70%;
+
+}
+
+.botao{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.botao-assistir {
+    background-color: white;
+    border: none;
+    color: black;
+    font-family: "Arial black", 'Times New Roman', Times, serif;
+    font-size: 14px;
+
+    padding: 15px 30px;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    transition: 0.6s;
+    
+}
+
+.botao-assistir:hover{
+    background-color: rgba(155, 154, 154, 0.904);
+}
+
+.botao-assistir i{
+    margin-right: 10px;
+}
+
+.botao-maisinfo {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    font-family: "Arial black", 'Times New Roman', Times, serif;
+    font-size: 14px;
+
+    padding: 15px 30px;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.botao-maisinfo:hover{
+    background-color: rgba(0, 0, 0, 0.3 );
+}
+
+.botao-maisinfo i{
+    margin-right: 8px;
+
+}
+
+.titulo-carousel{
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: "Arial black";
+    font-size: 13px;
+}
+
+.box-filme{
+    margin-top: 1%;
+    margin-left: 15%;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+
