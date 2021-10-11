@@ -18,12 +18,20 @@
         padding: 10px 15px;
         border-radius: 8px;
     }
+
+    header .logo{
+        margin-left: 5%;
+    }
 }
 
 @media screen and (max-width: 450px){
     header .container{
         display: flex;
         flex-direction: column;;
+    }
+
+    header .logo{
+        margin-left: 0%;
     }
 
     
