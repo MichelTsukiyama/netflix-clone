@@ -23,14 +23,13 @@ header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: "Arial Black", Times;
-    font-size: 40px;
+   max-width: 150px;
+   padding: 10px;
+   
 }
 
 header nav a{
@@ -42,6 +41,35 @@ header nav a{
 header nav a:hover{
     color: #AAA;
 }
+
+header .user-menu{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .search{
+    max-width: 25px;
+}
+
+header .sino{
+    max-width: 25px;
+}
+
+header .login {
+    max-width: 25px;
+    border-radius: 3px;
+}
+
+header .login-seta{
+    margin-bottom: 7px;
+    max-width: 10px;
+}
+
+
+
 
 /* Filme principal */
 
